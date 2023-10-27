@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Basket</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Name - Portfolio</title>
+        <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="style.css">
-</head>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelector('.landing-content h1').classList.add('animate');
+                document.querySelector('.landing-content p').classList.add('animate');
+                document.querySelector('.landing-content a').classList.add('animate');
+            });
+        </script>
+    </head>
 <body>
     <div class="container">
 
-        <div class="left">
+        <nav class="navbar">
             <div class="cat">
                 <div class="ear ear--left"></div>
                 <div class="ear ear--right"></div>
@@ -30,27 +37,59 @@
             </div>
             <br>
             <div class="name">
-                <h1>Trisha Andalene</h1>
-            </div>
-            <br>
-            <br>
-            <div class="info">
-                <h2><i></i>Email</h1>
-                <h2><i></i>Education</h1>
-                <h2><i></i>Instagram</h1>
-                <h2><i></i>Mobile</h1>
-            </div>
-            <br><br><br><br>
-        </div>
+                <span class="name" style="--i:1">T</span>
+                <span class="name" style="--i:2">r</span>
+                <span class="name" style="--i:3">i</span>
+                <span class="name"style="--i:4">s</span>
+                <span class="name" style="--i:5">h</span>
+                <span class="name" style="--i:6">a</span>
+                <span class="name" style="--i:7"> </span>
+                <span class="name" style="--i:8">A</span>
+                <span class="name" style="--i:9">n</span>
+                <span class="name" style="--i:10">d</span>
+                <span class="name" style="--i:11">a</span>
+                <span class="name" style="--i:12">l</span>
+                <span class="name" style="--i:13">e</span>
+                <span class="name" style="--i:14">n</span>
+                <span class="name" style="--i:15">e</span>
+               </div>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#social-media">Projects</a></li>
+                <li><a href="#about">Resume</a></li>
+            </ul>
+        </nav>
+        <br><br><br><br>
         
-        <div class="right">
-            <div class="open">
-                <br><br><br>
-                <h1>My Resume</h1>
-                <h2>Introduction</h2>
-                <p>Hey there, the name is Trisha Andalene, but you can simply call me Trisha. Anyways, thank you for reading this whole paragraph. As a technology enthusiast, I am very grateful to have piqued your interest in me. I am a high school student who will be attending my college years, majoring in computer science later next year. With almost 6 years of coding experience, I've embarked on my journey, creating websites, projects, and some games. However, the games don't have that much of fund; the graphics are not that good. Earlier in 2022, I've joined the national research competition and made it to the semifinalist with my sudden project. Nevertheless, it was a fun experience where I was laughing and stressing together with my friends. And just as the saying, teamwork is dreamwork! </p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora placeat nulla eum aspernatur temporibus dicta aliquam cumque id sapiente quibusdam, facere sint tempore deleniti possimus voluptate repellat rerum quidem porro ad mollitia vero. Animi nulla architecto corporis consectetur. Quae deleniti sit, sapiente voluptas necessitatibus expedita commodi nobis aut nisi ipsa cupiditate dolore reiciendis eius incidunt tempore qui quod ut ipsum at quibusdam similique praesentium quia! Molestias ea nulla suscipit hic rem recusandae maiores, illum rerum?</p>
+        <div class="content">
+            <div class="landing-content">
+                <img src="https://cdn.discordapp.com/attachments/775274957588398090/1167310485973114981/WhatsApp_Image_2023-04-12_at_20.51.13_2.jpeg?ex=654da99b&is=653b349b&hm=6c5121ee3ccdbc95e861d21293705e07c6c5d5d85e0f2da4ecd75e92e506d703&" alt="Landing Image">
+                <div>
+                    <h1 class="anime"><span>Welcome</span> <span>to</span> <span>My</span> <span>Website</span></h1>
+                    <p class="anime2"><span>Feel</span> <span>free</span> <span>to</span> <span>explore</span></p>
+                </div>
             </div>
+            <section id="introduction">
+                <h2>Introduction</h2>
+                <p>Hey there, the name is Trisha Andalene, but you can simply call me Trisha. Anyway, thank you for reading this whole paragraph. As a technology enthusiast, I am very grateful to have piqued your interest in me. I am a high school student who will be attending my college years, majoring in computer science later next year. With almost 6 years of coding experience, I've embarked on my journey, creating websites, projects, and some games. However, the games don't have that much of fund; the graphics are not that good. Earlier in 2022, I've joined the national research competition and made it to the semifinalist with my sudden project. Nevertheless, it was a fun experience where I was laughing and stressing together with my friends. And just as the saying, teamwork is dreamwork!</p>
+            </section>
+            <section id="social-media">
+                <h2>Projects</h2>
+                <p>For my projects, please click the link given below. It will take you to my GitHub repositories. Please feel free to open or download whatever you want, but don't forget to check the decription first! Happy Coding!</p>
+                <p>By the way, here's the link! <a href="https://github.com/TrishaAndalene?tab=repositories">Over here XD</a></p>
+            </section>
+            <section id="about">
+                <h2>More About Me</h2>
+                <div class="about-content">
+                    <p>Contact number : +6281369251688</p>
+                    <p>Email : <a href="mailto:trishaandalene2006@gmail.com">trishaandalene2006@gmail.com</a></p>
+                    <p>Instagram : <a>@trishaandalene</a> (main account)  <a>@rival.itz</a> (second account)</p>
+                    <p>Education : Ignatius Global School (Senior third year)</p>
+                    <p>Location : Palembang, Indonesia</p>
+                </div>
+            </section>
+        </div>
             <br><br><br>
         </div>
     </div>
